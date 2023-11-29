@@ -5,7 +5,7 @@ You can host this binary exploit CTF in your local machine or in a cloud server.
 sudo git clone https://github.com/vivekianity/simplebinctf/
 cd simplebinctf
 sudo docker build -t binctf:latest .
-sudo docker run -p 2212:2212 --privileged -it jailed:latest
+sudo docker run -p 2212:2212 --privileged -it binctf:latest
 
 Running the CTF:
 ----------------
